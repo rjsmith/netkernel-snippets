@@ -1,0 +1,15 @@
+{
+  "uuid": "a25b7c10-4c90-41de-809b-cf8dd05ca8e2",
+  "name": "service accessor endpoint with active grammar",
+  "description": "Accessor endpoint declaration with active grammar",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "        \u003caccessor\u003e\n            \u003cdescription /\u003e\n            \u003cgrammar\u003e\n                \u003cactive\u003e\n                    \u003cidentifier\u003eactive:foo\u003c/identifier\u003e\n                    \u003cargument name\u003d\"bar\" /\u003e\n                \u003c/active\u003e\n            \u003c/grammar\u003e\n            \u003cclass\u003ecom.example.FooAccessor\u003c/class\u003e\n        \u003c/accessor\u003e\n",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "module.xml"
+  ],
+  "dependencies": []
+}
