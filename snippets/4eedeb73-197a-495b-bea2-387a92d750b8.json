@@ -1,0 +1,15 @@
+{
+  "uuid": "4eedeb73-197a-495b-bea2-387a92d750b8",
+  "name": "import groovy",
+  "description": "Space import for lang:groovy runtime",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "\t\t\t\t\u003cimport\u003e\n\t\t\t\t\t\u003curi\u003eurn:org:netkernel:lang:groovy\u003c/uri\u003e\n\t\t\t\t\t\u003cprivate/\u003e\n\t\t\t\t\u003c/import\u003e\n",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "module.xml"
+  ],
+  "dependencies": []
+}
