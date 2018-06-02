@@ -1,0 +1,15 @@
+{
+  "uuid": "b7405ec7-089e-4379-897a-11d1492642cd",
+  "name": "import hds",
+  "description": "Space import for the urn:org:netkernel:mod:hds HDS rootspace (private)",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "\t\t\u003cimport\u003e\n\t\t    \u003cprivate /\u003e\n\t\t\t\u003curi\u003eurn:org:netkernel:mod:hds\u003c/uri\u003e\n\t\t\u003c/import\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "module.xml"
+  ],
+  "dependencies": []
+}
