@@ -1,0 +1,15 @@
+{
+  "uuid": "9e76565b-f35b-4276-aa15-2493e589fcb1",
+  "name": "module.xml",
+  "description": "Initial NetKernel module.xml with one empty rootspace declaration",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "\u003cmodule version\u003d\"2.0\"\u003e\n    \u003cmeta\u003e\n        \u003cidentity\u003e\n            \u003curi\u003eurn:example\u003c/uri\u003e\n            \u003cversion\u003e1.0.0\u003c/version\u003e\n        \u003c/identity\u003e\n        \u003cinfo\u003e\n            \u003cname\u003eExample Module\u003c/name\u003e\n            \u003cdescription\u003eExample Module\u003c/description\u003e\n        \u003c/info\u003e\n    \u003c/meta\u003e\n\n    \u003csystem\u003e\n        \u003cdynamic/\u003e\n    \u003c/system\u003e\n\n    \u003crootspace\n            name\u003d\"example space\"\n            public\u003d\"true\"\n            uri\u003d\"urn:example:main\"\u003e\n\n    \u003c/rootspace\u003e\n\n\n\u003c/module\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "module.xml"
+  ],
+  "dependencies": []
+}
