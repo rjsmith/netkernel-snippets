@@ -1,0 +1,15 @@
+{
+  "uuid": "5ab7bb85-fad1-4327-94ca-6ff27b28932d",
+  "name": "import layer1",
+  "description": "Space import for the urn:org:netkernel:ext:layer1 library",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "\t\t\u003cimport\u003e\n\t\t  \u003cprivate/\u003e\n\t\t  \u003curi\u003eurn:org:netkernel:ext:layer1\u003c/uri\u003e\n\t\t\u003c/import\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "module.xml"
+  ],
+  "dependencies": []
+}

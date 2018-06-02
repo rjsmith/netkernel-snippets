@@ -1,0 +1,15 @@
+{
+  "uuid": "64faa60d-135d-42a0-8184-1a55247be564",
+  "name": "import xml",
+  "description": "Space import for the urn:org:netkernel:xml:core library",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "\t\t\u003cimport\u003e\n\t\t  \u003cprivate /\u003e\n\t\t  \u003curi\u003eurn:org:netkernel:xml:core\u003c/uri\u003e\n\t\t\u003c/import\u003e\n",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "module.xml"
+  ],
+  "dependencies": []
+}
