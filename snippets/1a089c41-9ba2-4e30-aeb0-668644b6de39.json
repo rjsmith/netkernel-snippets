@@ -1,0 +1,13 @@
+{
+  "uuid": "1a089c41-9ba2-4e30-aeb0-668644b6de39",
+  "name": "DeclareThreadSafe",
+  "description": "Marks the endpoint to be considered safe to execute concurrently",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "declareThreadSafe();\n${cursor}\n",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
