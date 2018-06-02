@@ -1,0 +1,15 @@
+{
+  "uuid": "ebc9dcc9-ada3-4580-a263-0bf8f7d21e57",
+  "name": "mapper overlay with example endpoint",
+  "description": "A mapper overlay declaration",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "\t\t\u003cmapper\u003e\n\t\t\t\u003cconfig\u003e\n\t\t\t\t\u003cendpoint\u003e\n\t\t\t\t\t\u003cname\u003eMapper Endpoint\u003c/name\u003e\n\t\t\t\t\t\u003cdescription\u003eExample mapper overlay endpoint\u003c/description\u003e\n\t\t\t\t\t\u003cverbs\u003eSOURCE\u003c/verbs\u003e\n\t\t\t\t\t\u003cgrammar\u003e\n\t\t\t\t\t\t\u003cactive\u003e\n\t\t\t\t\t\t\t\u003cidentifier\u003eactive:foo\u003c/identifier\u003e\n\t\t\t\t\t\t\t\u003cargument name\u003d\"bar\" min\u003d\"1\" max\u003d\"1\" desc\u003d\"an argument\" /\u003e\n\t\t\t\t\t\t\u003c/active\u003e\n\t\t\t\t\t\u003c/grammar\u003e\n\t\t\t\t\t\u003crequest\u003e\n\t\t\t\t\t\t\u003cidentifier\u003eres:/dummy\u003c/identifier\u003e\n\t\t\t\t\t\u003c/request\u003e\n\t\t\t\t\u003c/endpoint\u003e\n\t\t\t\u003c/config\u003e\n\t\t\t\u003cspace\u003e\n\t\t\t\t\u003cliteral type\u003d\"string\" uri\u003d\"res:/dummy\"\u003eExample wrapped endpoint\u003c/literal\u003e\n\t\t\t\u003c/space\u003e\n\t\t\u003c/mapper\u003e\n",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "module.xml"
+  ],
+  "dependencies": []
+}
