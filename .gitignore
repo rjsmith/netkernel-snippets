@@ -3,3 +3,7 @@
 !.gitignore
 !snippets/
 !snippets/*
+!docs
+!docs/*
+README.md
+LICENSE
