@@ -6,7 +6,7 @@
   "tags": [
     "netkernel"
   ],
-  "code": "${:import(org.netkernel.layer0.nkf.INKFRequestReadOnly)}\n\t@Override\n\tpublic void onSource(INKFRequestContext context) throws Exception {\n\n    \t// WHAT\n\t\tINKFRequestReadOnly thisRequest \u003d context.getThisRequest();\n\n\t\t// WITH\n\n\t\t// HOW\n\n\t\t// REPLY\n\n\t\t// META\n\n    }",
+  "code": "${:import(org.netkernel.layer0.nkf.INKFRequestReadOnly)}\n\t@Override\n\tpublic void onSource(INKFRequestContext context) throws Exception {\n\n    \t// WHAT\n\t\tINKFRequestReadOnly thisRequest \u003d context.getThisRequest();\n\t\t${cursor}\n\n\t\t// WITH\n\n\t\t// HOW\n\n\t\t// REPLY\n\n\t\t// META\n\n    }",
   "location": "JAVA",
   "filenameRestrictions": [],
   "dependencies": []
