@@ -1,0 +1,13 @@
+{
+  "uuid": "9f54237d-7f26-498f-b96e-442d8cdfcdcd",
+  "name": "onSource method with WWHRM comment structure",
+  "description": "StandardAccessorImpl onSource method template",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "${:import(org.netkernel.layer0.nkf.INKFRequestReadOnly)}\n\t@Override\n\tpublic void onSource(INKFRequestContext context) throws Exception {\n\n    \t// WHAT\n\t\tINKFRequestReadOnly thisRequest \u003d context.getThisRequest();\n\n\t\t// WITH\n\n\t\t// HOW\n\n\t\t// REPLY\n\n\t\t// META\n\n    }",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
