@@ -1,0 +1,13 @@
+{
+  "uuid": "854d62b0-f779-44f8-897f-e03e4ed7a5a0",
+  "name": "logRaw LEVEL_INFO",
+  "description": "Adds a logRaw LEVEL_INFO statement, wrapping current selection (if any) as the logged string expression",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "${:import(org.netkernel.layer0.nkf.INKFLocale)} \n${context:var(org.netkernel.layer0.nkf.INKFRequestContext)}.logRaw(INKFLocale.LEVEL_INFO, ${line_selection}${cursor});",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
