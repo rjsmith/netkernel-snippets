@@ -1,0 +1,16 @@
+{
+  "uuid": "0709b924-894e-412c-8331-c08faeaa60d5",
+  "name": "meta todo",
+  "description": "Metadata template for the NK TODO application (install meta-todo from Apposite)",
+  "extraSearchTerms": [],
+  "tags": [
+    "netkernel"
+  ],
+  "code": "\u003cmeta\u003e\n\u003ctodo progress\u003d\"${cursor}50\" owner\u003d\"me\"\u003e\n\u003d\u003dInstall the ToDo Tool\u003d\u003d\n*\u0027\u0027\u0027Finish the todo tool!\u0027\u0027\u0027\n*Go and try it [http://localhost:1060/tools/meta/todo|here]\n\u003c/todo\u003e\n\u003c/meta\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "module.xml",
+    ".xml"
+  ],
+  "dependencies": []
+}
