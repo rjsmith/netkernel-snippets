@@ -57,13 +57,13 @@ Right click on the "NetKernel Snippets repository" folder and select the **Add S
 
 The Snipmatch Snippet Editor is now displayed. Fill in the meta data similar to the example in the screenshot below.  Don't forget the `netkernel` tag. For more information on how to use this editor, see the [Eclipse.org Snipmatch Editor documentation](http://www.eclipse.org/recommenders/manual/#snipmatch-editor):
 
-![Snippet Editor Metadata tab](docs/snipmatch_metadata_view.png)
+![Snippet Editor Metadata tab](docs/snipmatch_metadata_panel.png)
 
 Click on the **Raw Source** tab at the bottom of the Snippet Editor. This is where you add the actual code for the snippet.  If you adding Java code, you can also select existing code from a Java Editor, right-click and select the **Create Snippet...** option. Take a look at the [Raw Source](http://www.eclipse.org/recommenders/manual/#snipmatch-editor-source) documentation for more information and links to the JFace template language used by Snipmatch:
 
 ![Snippet Editor Raw Source tab](docs/snipmatch_raw_source_panel.png)
 
-Hit Ctrl+S in the Snippet Editor to save the newly-defined snippet.  It is now available to try out in your Eclipse editor.
+Hit <kbd>Ctrl+S</kbd> in the Snippet Editor to save the newly-defined snippet.  It is now available to try out in your Eclipse editor.
 
 When you are happy that the snippet is working as you desire, if you have write permission to the configured NetKernel Snippets repository, you can upload it directly from the Snippets View.  Locate the newly - created snippet in the Snippets View, right-click and select **Share Snippet(s)...** (NB: you can multi-select more than one snippet to upload in one commit):
 
@@ -79,7 +79,7 @@ You will then be prompted with the url of the repository (should be filled in fo
 
 If the commit was successful, you will see this final message:
 
-![Upload snippet success](docs/snipmatch_sharing_succesful.png)
+![Upload snippet success](docs/snipmatch_sharing_successful.png)
 
 ## License
 
