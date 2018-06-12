@@ -2,7 +2,7 @@
 
 This is an [Eclipse Code Recommender Snipmatch](http://www.eclipse.org/recommenders/manual/#snipmatch) Snippet repository for [NetKernel](http://1060research.com/products/#netkernel) by [1060 Research Ltd.](http://1060research.com/).
 
-This repository can be used to provide pre-defined code and xml snippets for NetKernel modules in the Eclipse IDE.
+This repository can be used to provide pre-defined code and xml snippets for writing NetKernel modules in the Eclipse IDE.
 
 ## Installation
 
